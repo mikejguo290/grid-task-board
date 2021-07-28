@@ -87,6 +87,7 @@ input {
 	grid-gap: 10px;
 	min-height: 700px;
     display: grid; /* set display: grid; so that the elements within card column stretch to take up entire 700px height of column */
+    grid-template-rows: 20px repeat(5, 100px);
 }
 
 .card-column h2 {
