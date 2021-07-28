@@ -92,6 +92,8 @@ input {
     
     align-content: space-evenly; /* set even amount of space vertically between each grid item. 
     align items in row relative to container and other rows, rather than align relative to cell with align-items */
+    
+    grid-auto-rows: 100px; /* in case there are more cards than rows specified for the grid within .card-column, each new row is 100px high. */
 }
 
 .card-column h2 {
